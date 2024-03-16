@@ -1,0 +1,20 @@
+/*styles the container div that holds the header and login form*/
+.container {
+  width: 40%;
+  text-align: center;
+  margin: 50px;
+  background-color: #282c34;
+  border: solid;
+  border-radius: 8px;
+  border-color: whitesmoke;
+}
+/*centers username and password inputs and button*/
+#form-div {
+  display: flex;
+  justify-content: center;
+}
+
+/*added top margin to button*/
+button {
+  margin-top: 5px;
+}

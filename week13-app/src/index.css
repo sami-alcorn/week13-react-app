@@ -1,0 +1,35 @@
+/*styles the background of the whole page, changes the cursor and font*/
+body {
+background-color: #282c34;
+font-family: 'Courier New', monospace;
+color: whitesmoke;
+cursor: pointer;
+}
+/*adds a border and margin, changes the text color*/
+h3 {
+  border: solid;
+  border-radius: 8px;
+  border-color: whitesmoke;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+/*changed the width, background color matches the rest of the body, adds a border*/
+.container {
+  width: 40%;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #282c34;
+  border: solid;
+  border-radius: 8px;
+  border-color: whitesmoke;
+}
+/*centers username and password inputs and button*/
+#form-div {
+  display: flex;
+  justify-content: center;
+}
+
+/*added top margin to button*/
+button {
+  margin-top: 5px;
+}
